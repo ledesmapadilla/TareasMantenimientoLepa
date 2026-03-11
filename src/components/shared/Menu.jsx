@@ -62,7 +62,7 @@ const Menu = () => {
   };
 
   return (
-    <Navbar bg="dark" variant="dark" expand="sm">
+    <Navbar bg="dark" variant="dark" expand="sm" sticky="top">
       <Container>
         <Navbar.Brand as={NavLink} to="/">
           <img

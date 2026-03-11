@@ -32,17 +32,12 @@
 }
 
 .tareas-page {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  overflow: hidden;
 }
 
 .tareas-scroll {
-  flex: 1;
-  overflow: auto;
   margin-top: 0.5rem;
   border-top: 0.5px solid var(--bs-secondary);
+  overflow-x: auto;
 }
 
 .tareas-tabla {
@@ -51,9 +46,6 @@
 }
 
 .tareas-tabla thead th {
-  position: sticky;
-  top: 0;
-  z-index: 10;
 }
 
 .tareas-tabla td,
