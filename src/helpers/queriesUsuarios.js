@@ -1,4 +1,4 @@
-const API_USUARIOS = "http://localhost:3000/api/usuarios";
+const API_USUARIOS = `${import.meta.env.VITE_API_URL}/api/usuarios`;
 
 export const listarUsuarios = async () => {
   try {

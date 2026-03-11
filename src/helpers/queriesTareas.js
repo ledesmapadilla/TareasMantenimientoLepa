@@ -1,4 +1,4 @@
-const API_TAREAS = "http://localhost:3000/api/tareas";
+const API_TAREAS = `${import.meta.env.VITE_API_URL}/api/tareas`;
 
 export const listarTareas = async () => {
   try {
